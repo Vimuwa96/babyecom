@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+
+
+/* NAVBAR */
+.nav-item a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav-buttons-wrapper {
+  display: flex;
+  color: black;
+}
+
+.search a i,
+.user a i,
+.cart a i {
+  color: black;
+  display: flex;
+  height: 10px;
+}
+
+.search a,
+.user a,
+.cart a {
+  color: black;
+  display: flex;
+  height: 10px;
+  text-decoration: none;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart a i span sup {
+  right: 0;
+  color: white;
+  background-color: red;
+  padding: 5px 11px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.navbar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.splide__slide {
+  position: relative;
+}
+
+.caption-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.caption-wrapper H1{
+    font-weight: 800;
+
+}
+
+
+.shop-now{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 15px 20px;
+}
+
+#scrollnav {
+  background-color: #ffffff; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#scrollnav .nav-item a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#scrollnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Category Section */
+.featured-catergories-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.catergory-heading h1{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.category-card-wrapper{
+    background-color: rgb(240, 239, 239);
+    padding: 25px;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in;
+}
+
+.catergory-image{
+    background-color: rgb(255, 255, 255);
+    padding: 45px;
+    border-radius: 50%;
+}
+
+.category-card-wrapper:hover{
+  border: 1px solid rgb(215, 214, 214);
+}
+
+.category-card-wrapper:hover .catergory-image{
+  border: 1px solid rgb(191, 187, 187);
+}
