@@ -14,6 +14,11 @@
   font-weight: 500;
 }
 
+.nav-buttons-wrapper-mobile{
+  display: flex;
+  
+}
+
 .nav-buttons-wrapper {
   display: flex;
   color: black;
@@ -87,7 +92,7 @@
 #scrollnav {
   background-color: #ffffff; /* Black background color */
   position: fixed; /* Make it stick/fixed */
-  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  top: -100px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   z-index: 1000;
@@ -108,6 +113,11 @@
   color: black;
 }
 
+
+.toggler{
+  border: none;
+  background-color: transparent;
+}
 /* Category Section */
 .featured-catergories-wrapper{
     display: flex;
@@ -140,3 +150,51 @@
 .category-card-wrapper:hover .catergory-image{
   border: 1px solid rgb(191, 187, 187);
 }
+
+@media only screen and (max-width: 375px) {
+  .navbar-brand img{
+    height: 15px;
+    width: 75px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .nav-buttons-wrapper-mobile{
+    visibility:visible!important;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .nav-buttons-wrapper-mobile{
+    visibility:visible!important;
+  }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .nav-buttons-wrapper-mobile{
+    visibility:visible!important;
+  }
+
+}
+
+
+@media only screen and (min-width: 993px) {
+
+  .nav-buttons-wrapper-mobile{
+    visibility:hidden!important;
+  }
+
+  .toggler{
+    visibility:hidden!important;
+  }
+
+ 
+}
+
