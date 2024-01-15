@@ -7,16 +7,14 @@
   font-family: "Jost", sans-serif;
 }
 
-
 /* NAVBAR */
 .nav-item a {
   text-transform: uppercase;
   font-weight: 500;
 }
 
-.nav-buttons-wrapper-mobile{
+.nav-buttons-wrapper-mobile {
   display: flex;
-  
 }
 
 .nav-buttons-wrapper {
@@ -73,20 +71,17 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-
 }
 
-.caption-wrapper H1{
-    font-weight: 800;
-
+.caption-wrapper H1 {
+  font-weight: 800;
 }
 
-
-.shop-now{
-    text-decoration: none;
-    background-color: brown;
-    color: white;
-    padding: 15px 20px;
+.shop-now {
+  text-decoration: none;
+  background-color: brown;
+  color: white;
+  padding: 15px 20px;
 }
 
 #scrollnav {
@@ -113,88 +108,170 @@
   color: black;
 }
 
-
-.toggler{
+.toggler {
   border: none;
   background-color: transparent;
+  color: black;
+  text-decoration: none;
 }
 /* Category Section */
-.featured-catergories-wrapper{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+.featured-catergories-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.catergory-heading h1{
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.category-card-wrapper{
-    background-color: rgb(240, 239, 239);
-    padding: 25px;
-    border: 1px solid transparent;
-    transition: 0.5s ease-in;
+.catergory-heading h1 {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.catergory-image{
-    background-color: rgb(255, 255, 255);
-    padding: 45px;
-    border-radius: 50%;
+.category-card-wrapper {
+  background-color: rgb(240, 239, 239);
+  padding: 25px;
+  border: 1px solid transparent;
+  transition: 0.5s ease-in;
 }
 
-.category-card-wrapper:hover{
+.catergory-image {
+  background-color: rgb(255, 255, 255);
+  padding: 45px;
+  border-radius: 50%;
+}
+
+.category-card-wrapper:hover {
   border: 1px solid rgb(215, 214, 214);
 }
 
-.category-card-wrapper:hover .catergory-image{
+.category-card-wrapper:hover .catergory-image {
   border: 1px solid rgb(191, 187, 187);
 }
 
 @media only screen and (max-width: 375px) {
-  .navbar-brand img{
+  .navbar-brand img {
     height: 15px;
     width: 75px;
   }
-
 }
 
 @media only screen and (max-width: 576px) {
-  .nav-buttons-wrapper-mobile{
-    visibility:visible!important;
+  .nav-buttons-wrapper-mobile {
+    visibility: visible !important;
   }
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
-  .nav-buttons-wrapper-mobile{
-    visibility:visible!important;
+  .nav-buttons-wrapper-mobile {
+    visibility: visible !important;
   }
-
 }
-
 
 @media only screen and (max-width: 992px) {
-
-  .nav-buttons-wrapper-mobile{
-    visibility:visible!important;
+  .nav-buttons-wrapper-mobile {
+    visibility: visible !important;
   }
-
 }
-
 
 @media only screen and (min-width: 993px) {
-
-  .nav-buttons-wrapper-mobile{
-    visibility:hidden!important;
+  .nav-buttons-wrapper-mobile {
+    visibility: hidden !important;
   }
 
-  .toggler{
-    visibility:hidden!important;
+  .toggler {
+    visibility: hidden !important;
   }
-
- 
 }
 
+/* Product Card Section */
+
+.product-card-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.sale-badge-wrapper {
+  position: absolute;
+  top: 0px;
+  left: -10px;
+}
+
+.sale-badge p {
+  font-weight: 500;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 8px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0;
+}
+
+.item-name p{
+  font-weight: 500;
+}
+
+.product-card-body{
+  line-height: 10px;
+}
+
+.price-wrapper{
+  display: flex;
+}
+
+.now-item-price p{
+  color: rgb(240, 182, 182);
+  font-weight: 600;
+  padding-right
+  : 10px;
+}
+
+.was-item-price p{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  padding-right
+  : 10px;
+  text-decoration: line-through;
+}
+
+.hover-elements{
+  position: absolute;
+  top: 30%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.hover-elements a i{
+  background-color: white;
+  z-index: 100;
+  padding: 20px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.hover-elements a {
+  text-decoration: none;
+}
+
+
+.product-card:hover .hover-elements a i {
+  color: rgb(0, 0, 0);
+  opacity: 100%;
+  
+}
+
+.hover-elements a i:hover{
+  background-color: rgb(255,142,169);
+  color: rgb(248, 248, 248)!important;
+}
+
+
+.modal-content{
+  background-color: antiquewhite;
+}
