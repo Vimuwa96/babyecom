@@ -145,3 +145,63 @@
     width: 100%;
     text-decoration: none;
   }
+
+  .small-desc{
+    color: grey;
+  }
+
+  .circle{
+    color: red;
+  }
+
+  .buy-now-btn-wrapper{
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .buy-now-btn-wrapper:hover{
+    background-color: rgb(255,142,169);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .buy-now-btn-wrapper a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .more-details ul li span{
+    color: grey;
+  }
+
+  .more-details ul{
+    list-style: none;
+    line-height:2rem;
+  }
+
+
+.services-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(237, 235, 235);
+    padding: 18px 10px;
+}
+
+  .services-card-icon i{
+    color: rgb(255,142,169);
+    height: 20px;
+    width: 20px;
+  }
+
+  .service-description p{
+    font-size: small;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }

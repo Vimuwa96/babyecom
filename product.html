@@ -9,7 +9,9 @@
       src="https://kit.fontawesome.com/1a3b5235e0.js"
       crossorigin="anonymous"
     ></script>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -42,7 +44,7 @@
     <!-- Navgation Bar -->
     <nav class="navbar navbar-expand-lg pt-4 pb-4">
       <div class="container">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><img
             src="https://topkid-store-demo.myshopify.com/cdn/shop/files/logo.png?v=1647568933"
             alt=""
@@ -267,11 +269,12 @@
 
             <hr />
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Perferendis nihil sapiente eos est animi repellendus pariatur
-              explicabo, eius aliquid maiores hic. Nesciunt sunt dolor
-              aspernatur minima assumenda ex aliquid dignissimos.
+            <p class="small-desc">
+              On this Tonie your kid will find 5 of the most popular Fireman Sam
+              episodes, including the annual Pontypandy Cheese Roll Challenge, a
+              talented pet show, a surprise involving a garden makeover, a very
+              exciting day off and a barbecue that gets out of control. (Guess
+              who comes to the...
             </p>
 
             <div class="stock-details">
@@ -283,6 +286,7 @@
                 <a href="">Size guide</a>
               </div>
 
+              <div class="vr"></div>
               <div class="delivery-return">
                 <a href="">Delivery & Return</a>
               </div>
@@ -293,7 +297,7 @@
               <div class="available-sizes">
                 <p>SELECT SIZE</p>
                 <ul class="available-sizes-list px-3">
-                    <input
+                  <input
                     type="radio"
                     class="btn-check"
                     name="options-outlined"
@@ -301,9 +305,7 @@
                     autocomplete="off"
                     checked
                   />
-                  <label class="btn btn-outline-dark" for="S-outlined"
-                    >S</label
-                  >
+                  <label class="btn btn-outline-dark" for="S-outlined">S</label>
 
                   <input
                     type="radio"
@@ -329,29 +331,115 @@
                   >
                 </ul>
               </div>
-
-              
-
+            
             </div>
-            <!-- <hr style="width: 50%; display: flex; justify-content: center;"> -->
-
-            <!-- Cart qty Form -->
-            <div class="qty-wrapper">
-
-                <div class="qty-input my-auto px-3">
-                    <input type="number" class="qty w-100" min="1" max="10" value="1">
-                </div>
-                
-                <div class="add-to-cart-warpper my-auto px-3">
-                    <a href="">Add to Cart</a>
-                </div>
-
-                
+            <div class="available-sizes pt-3">
+              <p>COLORS</p>
             </div>
             
+                <div class="form-check form-check-inline my-auto">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Blue</label>
+                </div>
+                <div class="form-check form-check-inline my-auto">
+                  <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Red</label>
+                </div>
+            
+            
+            
+
+            <!-- Cart qty Form -->
+            <div class="qty-wrapper pt-4 mb-3">
+              <div class="qty-input my-auto px-3">
+                <input
+                  type="number"
+                  class="qty w-100"
+                  min="1"
+                  max="10"
+                  value="1"
+                />
+              </div>
+
+              <div class="add-to-cart-warpper my-auto px-3">
+                <a href="">Add to Cart</a>
+              </div>
+
+              
+            </div>
+            <div class="buy-now-btn-wrapper">
+              <a href="">Buy Now</a>
+            </div>
+
+            <hr>
+
+
+            <div class="more-details">
+              <ul>
+                <li>S K U : <span>Z102-2</span></li>
+                <li>Category : <span>Baby Accessories, Hot Deals</span></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+
+
+
+      <div class="services-wrapper pb-5 pt-5">
+        <div class="row">
+
+
+          <div class="col-md-4 col-6 col-xl-3 g-2">
+            <div class="services-card-wrapper">
+              <div class="services-card-icon">
+                <i class="fa-solid fa-plane-departure fa-2x"></i>
+              </div>
+              <div class="service-description pt-2">
+                <p>WORLDWIDE SHIPPING</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-6 col-xl-3 g-2">
+            <div class="services-card-wrapper">
+              <div class="services-card-icon">
+                <i class="fa-solid fa-arrow-rotate-left fa-2x"></i>
+              </div>
+              <div class="service-description pt-2">
+                <p>FREE 30-DAY RETURNS</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-6 col-xl-3 g-2">
+            <div class="services-card-wrapper">
+              <div class="services-card-icon">
+                <i class="fa-solid fa-award fa-2x"></i>
+              </div>
+              <div class="service-description pt-2">
+                <p>24 MONTH WARRANTY</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-6 col-xl-3 g-2">
+            <div class="services-card-wrapper">
+              <div class="services-card-icon">
+                <i class="fa-solid fa-shield fa-2x"></i>
+              </div>
+              <div class="service-description pt-2">
+                <p>100% SECRUE CHECKOUT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
 
     <script
