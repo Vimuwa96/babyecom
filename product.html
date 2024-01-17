@@ -9,19 +9,41 @@
       src="https://kit.fontawesome.com/1a3b5235e0.js"
       crossorigin="anonymous"
     ></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     <!-- Slider -->
     <link
       href="
       https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
       rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.0.7/css/star-rating.css"
+      media="all"
+      rel="stylesheet"
+      type="text/css"
     />
 
     <!-- Slick -->
@@ -41,6 +63,8 @@
     />
   </head>
   <body>
+
+    <div class="body-wrapper">
     <!-- Navgation Bar -->
     <nav class="navbar navbar-expand-lg pt-4 pb-4">
       <div class="container">
@@ -255,6 +279,8 @@
               </li>
             </ul>
           </div>
+
+          <div class="play-video"></div>
         </div>
 
         <div class="col-md-5">
@@ -331,23 +357,31 @@
                   >
                 </ul>
               </div>
-            
             </div>
             <div class="available-sizes pt-3">
               <p>COLORS</p>
             </div>
-            
-                <div class="form-check form-check-inline my-auto">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                  <label class="form-check-label" for="inlineRadio1">Blue</label>
-                </div>
-                <div class="form-check form-check-inline my-auto">
-                  <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Red</label>
-                </div>
-            
-            
-            
+
+            <div class="form-check form-check-inline my-auto">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="form-check-label" for="inlineRadio1">Blue</label>
+            </div>
+            <div class="form-check form-check-inline my-auto">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="form-check-label" for="inlineRadio2">Red</label>
+            </div>
 
             <!-- Cart qty Form -->
             <div class="qty-wrapper pt-4 mb-3">
@@ -364,15 +398,12 @@
               <div class="add-to-cart-warpper my-auto px-3">
                 <a href="">Add to Cart</a>
               </div>
-
-              
             </div>
             <div class="buy-now-btn-wrapper">
               <a href="">Buy Now</a>
             </div>
 
-            <hr>
-
+            <hr />
 
             <div class="more-details">
               <ul>
@@ -384,12 +415,8 @@
         </div>
       </div>
 
-
-
       <div class="services-wrapper pb-5 pt-5">
         <div class="row">
-
-
           <div class="col-md-4 col-6 col-xl-3 g-2">
             <div class="services-card-wrapper">
               <div class="services-card-icon">
@@ -412,7 +439,6 @@
             </div>
           </div>
 
-
           <div class="col-md-4 col-6 col-xl-3 g-2">
             <div class="services-card-wrapper">
               <div class="services-card-icon">
@@ -423,7 +449,6 @@
               </div>
             </div>
           </div>
-
 
           <div class="col-md-4 col-6 col-xl-3 g-2">
             <div class="services-card-wrapper">
@@ -437,17 +462,206 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
 
+    <div class="review-wrapper mb-3">
+      <div class="review d-flex my-auto">
+        <p class="d-flex my-auto">CUTOMER REVIEWS</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="customer-reviews-slider-wrapper">
+        <div class="reviews-contents">
+
+          <div class="review-wrapper-card p-2">
+          <div class="review-card">
+            <div class="review-title">
+              <p>Quality Products</p>
+            </div>
+            <div class="review-rate">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="review-comment">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam velit quibusdam natus autem libero
+              </p>
+            </div>
+            <div class="cutomer-name d-flex justify-content-end">
+              <p>- Rashmi Dilmika -</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-wrapper-card p-2">
+          <div class="review-card">
+            <div class="review-title">
+              <p>Quality Products</p>
+            </div>
+            <div class="review-rate">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="review-comment">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam velit quibusdam natus autem libero
+              </p>
+            </div>
+            <div class="cutomer-name d-flex justify-content-end">
+              <p>- Rashmi Dilmika -</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="review-wrapper-card p-2">
+          <div class="review-card">
+            <div class="review-title">
+              <p>Quality Products</p>
+            </div>
+            <div class="review-rate">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="review-comment">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam velit quibusdam natus autem libero
+              </p>
+            </div>
+            <div class="cutomer-name d-flex justify-content-end">
+              <p>- Rashmi Dilmika -</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-wrapper-card p-2">
+
+          <div class="review-card">
+            <div class="review-title">
+              <p>Quality Products</p>
+            </div>
+            <div class="review-rate">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="review-comment">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam velit quibusdam natus autem libero
+              </p>
+            </div>
+            <div class="cutomer-name d-flex justify-content-end">
+              <p>- Rashmi Dilmika -</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <form action="" method="post">
+        <div class="cutomer-reviews pb-5 pt-5">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            class="namefeild w-100 mb-3"
+            placeholder="Enter your name"
+            required
+          />
+
+          <label for="name">Email</label>
+          <input
+            type="text"
+            name="email"
+            class="namefeild w-100 mb-3"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="name">Review Title</label>
+          <input
+            type="text"
+            name="email"
+            class="namefeild w-100 mb-3"
+            placeholder="Review Title"
+            required
+          />
+
+          <label for="">Body of Review</label>
+          <textarea
+            type="text"
+            name="email"
+            class="namefeild w-100 mb-3"
+            placeholder="Review Title"
+            required
+          ></textarea>
+
+          <div class="star-rating mb-3">
+            <input type="radio" id="star1" name="rating" value="1" /><label
+              for="star1"
+            ></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label
+              for="star2"
+            ></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label
+              for="star3"
+            ></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label
+              for="star4"
+            ></label>
+            <input type="radio" id="star5" name="rating" value="5" /><label
+              for="star5"
+            ></label>
+          </div>
+
+          <br />
+          <button class="submit-review">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="review-wrapper mb-3">
+      <div class="review d-flex my-auto">
+        <p class="d-flex my-auto">RELATED PRODUCTS</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
 
+    <script>
+      // initialize with defaults
+      $("#input-id").rating();
+
+      // with plugin options
+      $("#input-id").rating({ min: 1, max: 10, step: 2, size: "lg" });
+    </script>
     <!-- Slider JS -->
     <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
@@ -495,6 +709,53 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
           $(".thumb-previewer img").attr("src", $(this).attr("href"));
         });
       });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+      $('.reviews-contents').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive:
+   [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
     </script>
   </body>
 </html>
